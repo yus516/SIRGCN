@@ -30,12 +30,14 @@ bash run_sir.sh
 
 ### 3.1 Parameters
 
-horizon=1
-gpu=0
-dataset=japan or state360: dataset
-sim_mat=japan-adj or state-adj-49: adj matrix
-seed=420: random seed
+- `horizon=1`: Prediction step 
+- `gpu=0`: Device
+- `dataset=japan` or `state360`: dataset
+- `sim_mat=japan-adj` or `state-adj-49`: adj matrix
+- `seed=420`: random seed
 
 ---
+
+The sample shell script is in run_sir.sh.
 
 
